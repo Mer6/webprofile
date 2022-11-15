@@ -1,0 +1,68 @@
+/*Google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: patrick hand;	
+}
+
+/*body{
+	background-image: linear-gradient(to right top, #4d46bd, #4640b1, #3f3aa5, #39349a, #322e8e, #5d298b, #7b2485, #941f7c, #c82b6a, #e95252, #f6823a, #f0b32d);
+	background-repeat: no-repeat;
+}*/
+
+.gradient{
+	background-image: linear-gradient(to right top, #4d46bd, #4640b1, #3f3aa5, #39349a, #322e8e, #5d298b, #7b2485, #941f7c, #c82b6a, #e95252, #f6823a, #f0b32d);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+}
+
+
+div .card{
+	border: 2;
+	border-style: inset;
+	background-color: transparent;
+	padding-left: 2rem;
+}
+
+
+div .card1{
+	padding-left: 2rem;
+}
+
+.social{
+	display: flex;
+	margin: .5rem;
+	vertical-align: middle;
+	list-style: none;
+}
+
+#vision1{
+	background-color: white;
+	font-size: 18px;
+}
+
+#sizeme{
+	font-size: 18px;
+}
+
+#container{
+	width: 100%;
+	height: 100vp;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+
+/*.star{
+	background-image: linear-gradient(to right bottom, #619aef, #c199e1, #f1a1c8, #ffb6b5, #fed0b5);
+	height: 500px;
+}*/
